@@ -266,12 +266,10 @@
             ],
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disables the accessibility domain."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables the accessibility domain which causes `AXNodeId`s to remain consistent between method calls.\nThis turns on accessibility for the page, which can impact performance until accessibility is disabled."
+                    "name": "enable"
                 },
                 {
                     "name": "getPartialAXTree",
@@ -436,12 +434,10 @@
             ],
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disables animation domain notifications."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables animation domain notifications."
+                    "name": "enable"
                 },
                 {
                     "name": "getCurrentTime",
@@ -626,8 +622,7 @@
             ],
             "commands": [
                 {
-                    "name": "enable",
-                    "description": "Enables application cache domain notifications."
+                    "name": "enable"
                 },
                 {
                     "name": "getApplicationCacheForFrame",
@@ -995,8 +990,7 @@
                     ]
                 },
                 {
-                    "name": "close",
-                    "description": "Close browser gracefully."
+                    "name": "close"
                 },
                 {
                     "name": "crash"
@@ -1664,12 +1658,10 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables the CSS agent for the given page."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables the CSS agent for the given page. Clients should not assume that the CSS agent has been\nenabled until the result of this command is received."
+                    "name": "enable"
                 },
                 {
                     "name": "forcePseudoState",
@@ -1960,8 +1952,7 @@
                     ]
                 },
                 {
-                    "name": "startRuleUsageTracking",
-                    "description": "Enables the selector recording."
+                    "name": "startRuleUsageTracking"
                 },
                 {
                     "name": "stopRuleUsageTracking",
@@ -1998,8 +1989,7 @@
                     ]
                 },
                 {
-                    "name": "mediaQueryResultChanged",
-                    "description": "Fires whenever a MediaQuery result changes (for example, after a browser window has been\nresized.) The current implementation considers only viewport-dependent media features."
+                    "name": "mediaQueryResultChanged"
                 },
                 {
                     "name": "styleSheetAdded",
@@ -2242,8 +2232,7 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Stops observing for sinks and issues."
+                    "name": "disable"
                 },
                 {
                     "name": "setSinkToUse",
@@ -2654,8 +2643,7 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables DOM agent for the given page."
+                    "name": "disable"
                 },
                 {
                     "name": "discardSearchResults",
@@ -2666,8 +2654,7 @@
                     ]
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables DOM agent for the given page."
+                    "name": "enable"
                 },
                 {
                     "name": "focus",
@@ -3348,8 +3335,7 @@
                     ]
                 },
                 {
-                    "name": "documentUpdated",
-                    "description": "Fired when `Document` has been totally updated. Node ids are no longer valid."
+                    "name": "documentUpdated"
                 },
                 {
                     "name": "inlineStyleInvalidated",
@@ -4101,12 +4087,10 @@
             ],
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disables DOM snapshot agent for the given page."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables DOM snapshot agent for the given page."
+                    "name": "enable"
                 },
                 {
                     "name": "getSnapshot",
@@ -4215,12 +4199,10 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables storage tracking, prevents storage events from being sent to the client."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables storage tracking, storage events will now be delivered to the client."
+                    "name": "enable"
                 },
                 {
                     "name": "getDOMStorageItems",
@@ -4362,12 +4344,10 @@
             ],
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disables database tracking, prevents database events from being sent to the client."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables database tracking, database events will now be delivered to the client."
+                    "name": "enable"
                 },
                 {
                     "name": "executeSQL",
@@ -4436,8 +4416,7 @@
             "domain": "DeviceOrientation",
             "commands": [
                 {
-                    "name": "clearDeviceOrientationOverride",
-                    "description": "Clears the overridden Device Orientation."
+                    "name": "clearDeviceOrientationOverride"
                 },
                 {
                     "name": "setDeviceOrientationOverride",
@@ -4499,12 +4478,10 @@
                     ]
                 },
                 {
-                    "name": "clearDeviceMetricsOverride",
-                    "description": "Clears the overriden device metrics."
+                    "name": "clearDeviceMetricsOverride"
                 },
                 {
-                    "name": "clearGeolocationOverride",
-                    "description": "Clears the overriden Geolocation Position and Error."
+                    "name": "clearGeolocationOverride"
                 },
                 {
                     "name": "resetPageScaleFactor"
@@ -4812,12 +4789,10 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables headless events for the target."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables headless events for the target."
+                    "name": "enable"
                 }
             ],
             "events": [
@@ -5096,12 +5071,10 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables events from backend."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables events from backend."
+                    "name": "enable"
                 },
                 {
                     "name": "requestData",
@@ -5578,12 +5551,10 @@
             "domain": "Inspector",
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disables inspector domain notifications."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables inspector domain notifications."
+                    "name": "enable"
                 }
             ],
             "events": [
@@ -5596,12 +5567,10 @@
                     ]
                 },
                 {
-                    "name": "targetCrashed",
-                    "description": "Fired when debugging target has crashed"
+                    "name": "targetCrashed"
                 },
                 {
-                    "name": "targetReloadedAfterCrash",
-                    "description": "Fired when debugging target has reloaded after crash"
+                    "name": "targetReloadedAfterCrash"
                 }
             ]
         },
@@ -5769,12 +5738,10 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables compositing tree inspection."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables compositing tree inspection."
+                    "name": "enable"
                 },
                 {
                     "name": "loadSnapshot",
@@ -6017,16 +5984,13 @@
             ],
             "commands": [
                 {
-                    "name": "clear",
-                    "description": "Clears the log."
+                    "name": "clear"
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables log domain, prevents further log entries from being reported to the client."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables log domain, sends the entries collected so far to the client by means of the\n`entryAdded` notification."
+                    "name": "enable"
                 },
                 {
                     "name": "startViolationsReport",
@@ -6040,8 +6004,7 @@
                     ]
                 },
                 {
-                    "name": "stopViolationsReport",
-                    "description": "Stop violation reporting."
+                    "name": "stopViolationsReport"
                 }
             ],
             "events": [
@@ -6137,8 +6100,7 @@
                     "name": "prepareForLeakDetection"
                 },
                 {
-                    "name": "forciblyPurgeJavaScriptMemory",
-                    "description": "Simulate OomIntervention by purging V8 memory."
+                    "name": "forciblyPurgeJavaScriptMemory"
                 },
                 {
                     "name": "setPressureNotificationsSuppressed",
@@ -6171,8 +6133,7 @@
                     ]
                 },
                 {
-                    "name": "stopSampling",
-                    "description": "Stop collecting native memory profile."
+                    "name": "stopSampling"
                 },
                 {
                     "name": "getAllTimeSamplingProfile",
@@ -6988,12 +6949,10 @@
                     ]
                 },
                 {
-                    "name": "clearBrowserCache",
-                    "description": "Clears browser cache."
+                    "name": "clearBrowserCache"
                 },
                 {
-                    "name": "clearBrowserCookies",
-                    "description": "Clears browser cookies."
+                    "name": "clearBrowserCookies"
                 },
                 {
                     "name": "continueInterceptedRequest",
@@ -7057,8 +7016,7 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables network tracking, prevents network events from being sent to the client."
+                    "name": "disable"
                 },
                 {
                     "name": "emulateNetworkConditions",
@@ -7850,12 +7808,10 @@
             ],
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disables domain notifications."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables domain notifications."
+                    "name": "enable"
                 },
                 {
                     "name": "getHighlightObjectForTest",
@@ -7880,8 +7836,7 @@
                     ]
                 },
                 {
-                    "name": "hideHighlight",
-                    "description": "Hides any highlight."
+                    "name": "hideHighlight"
                 },
                 {
                     "name": "highlightFrame",
@@ -8093,8 +8048,7 @@
                     ]
                 },
                 {
-                    "name": "inspectModeCanceled",
-                    "description": "Fired when user cancels the inspect mode."
+                    "name": "inspectModeCanceled"
                 }
             ]
         },
@@ -8475,8 +8429,7 @@
                     ]
                 },
                 {
-                    "name": "bringToFront",
-                    "description": "Brings page to front (activates tab)."
+                    "name": "bringToFront"
                 },
                 {
                     "name": "captureScreenshot",
@@ -8578,12 +8531,10 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables page domain notifications."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables page domain notifications."
+                    "name": "enable"
                 },
                 {
                     "name": "getAppManifest",
@@ -8668,8 +8619,7 @@
                     ]
                 },
                 {
-                    "name": "resetNavigationHistory",
-                    "description": "Resets navigation history for the current page."
+                    "name": "resetNavigationHistory"
                 },
                 {
                     "name": "getResourceContent",
@@ -9118,8 +9068,7 @@
                     ]
                 },
                 {
-                    "name": "stopLoading",
-                    "description": "Force the page stop all navigations and pending resource fetches."
+                    "name": "stopLoading"
                 },
                 {
                     "name": "crash"
@@ -9354,12 +9303,10 @@
                     ]
                 },
                 {
-                    "name": "interstitialHidden",
-                    "description": "Fired when interstitial page was hidden"
+                    "name": "interstitialHidden"
                 },
                 {
-                    "name": "interstitialShown",
-                    "description": "Fired when interstitial page was shown"
+                    "name": "interstitialShown"
                 },
                 {
                     "name": "javascriptDialogClosed",
@@ -9508,12 +9455,10 @@
             ],
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disable collecting and reporting metrics."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enable collecting and reporting metrics."
+                    "name": "enable"
                 },
                 {
                     "name": "setTimeDomain",
@@ -9654,12 +9599,10 @@
             ],
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disables tracking security state changes."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables tracking security state changes."
+                    "name": "enable"
                 },
                 {
                     "name": "setIgnoreCertificateErrors",
@@ -10807,8 +10750,7 @@
             ],
             "commands": [
                 {
-                    "name": "end",
-                    "description": "Stop trace events collection."
+                    "name": "end"
                 },
                 {
                     "name": "getCategories",
@@ -11031,8 +10973,7 @@
             ],
             "commands": [
                 {
-                    "name": "disable",
-                    "description": "Disables the fetch domain."
+                    "name": "disable"
                 },
                 {
                     "name": "enable",
@@ -11305,12 +11246,10 @@
             ],
             "commands": [
                 {
-                    "name": "enable",
-                    "description": "Enables the WebAudio domain and starts sending context lifetime events."
+                    "name": "enable"
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables the WebAudio domain."
+                    "name": "disable"
                 },
                 {
                     "name": "getRealtimeData",
@@ -11424,12 +11363,10 @@
             ],
             "commands": [
                 {
-                    "name": "enable",
-                    "description": "Enable the WebAuthn domain and start intercepting credential storage and\nretrieval with a virtual authenticator."
+                    "name": "enable"
                 },
                 {
-                    "name": "disable",
-                    "description": "Disable the WebAuthn domain."
+                    "name": "disable"
                 },
                 {
                     "name": "addVirtualAuthenticator",
@@ -11564,16 +11501,13 @@
             ],
             "commands": [
                 {
-                    "name": "clearMessages",
-                    "description": "Does nothing."
+                    "name": "clearMessages"
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables console domain, prevents further console messages from being reported to the client."
+                    "name": "disable"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables console domain, sends the messages collected so far to the client by means of the\n`messageAdded` notification."
+                    "name": "enable"
                 }
             ],
             "events": [
@@ -11759,8 +11693,7 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables debugger for given page."
+                    "name": "disable"
                 },
                 {
                     "name": "enable",
@@ -11885,8 +11818,7 @@
                     ]
                 },
                 {
-                    "name": "pause",
-                    "description": "Stops on the next JavaScript statement."
+                    "name": "pause"
                 },
                 {
                     "name": "pauseOnAsyncCall",
@@ -11934,8 +11866,7 @@
                     ]
                 },
                 {
-                    "name": "resume",
-                    "description": "Resumes JavaScript execution."
+                    "name": "resume"
                 },
                 {
                     "name": "searchInContent",
@@ -12210,12 +12141,10 @@
                     ]
                 },
                 {
-                    "name": "stepOut",
-                    "description": "Steps out of the function call."
+                    "name": "stepOut"
                 },
                 {
-                    "name": "stepOver",
-                    "description": "Steps over the statement."
+                    "name": "stepOver"
                 }
             ],
             "events": [
@@ -12286,8 +12215,7 @@
                     ]
                 },
                 {
-                    "name": "resumed",
-                    "description": "Fired when the virtual machine resumed execution."
+                    "name": "resumed"
                 },
                 {
                     "name": "scriptFailedToParse",
@@ -12854,8 +12782,7 @@
                     ]
                 },
                 {
-                    "name": "stopPreciseCoverage",
-                    "description": "Disable precise code coverage. Disabling releases unnecessary execution count records and allows\nexecuting optimized code."
+                    "name": "stopPreciseCoverage"
                 },
                 {
                     "name": "stopTypeProfile"
@@ -13482,16 +13409,13 @@
                     ]
                 },
                 {
-                    "name": "disable",
-                    "description": "Disables reporting of execution contexts creation."
+                    "name": "disable"
                 },
                 {
-                    "name": "discardConsoleEntries",
-                    "description": "Discards collected exceptions and console API calls."
+                    "name": "discardConsoleEntries"
                 },
                 {
-                    "name": "enable",
-                    "description": "Enables reporting of execution contexts creation by means of `executionContextCreated` event.\nWhen the reporting gets enabled the event will be sent immediately for each existing execution\ncontext."
+                    "name": "enable"
                 },
                 {
                     "name": "evaluate",
@@ -13676,8 +13600,7 @@
                     ]
                 },
                 {
-                    "name": "runIfWaitingForDebugger",
-                    "description": "Tells inspected instance to run if it was waiting for debugger to attach."
+                    "name": "runIfWaitingForDebugger"
                 },
                 {
                     "name": "runScript",
@@ -13888,8 +13811,7 @@
                     ]
                 },
                 {
-                    "name": "executionContextsCleared",
-                    "description": "Issued when all executionContexts were cleared in browser"
+                    "name": "executionContextsCleared"
                 },
                 {
                     "name": "inspectRequested",
