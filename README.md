@@ -1,7 +1,7 @@
 # chrome-remote-interface [![Build Status][]][travis]
 
-[Build Status]: https://travis-ci.org/cyrus-and/chrome-remote-interface.svg?branch=master
-[travis]: https://travis-ci.org/cyrus-and/chrome-remote-interface
+[Build Status]: https://travis-ci.com/cyrus-and/chrome-remote-interface.svg?branch=master
+[travis]: https://travis-ci.com/cyrus-and/chrome-remote-interface
 
 [Chrome Debugging Protocol] interface that helps to instrument Chrome (or any
 other suitable [implementation](#implementations)) by providing a simple
@@ -866,6 +866,16 @@ Close the connection to the remote instance.
 
 When `callback` is omitted a `Promise` object is returned.
 
+#### client['`<domain>`.`<name>`']
+
+Just a shorthand for:
+
+```js
+client.<domain>.<name>
+```
+
+Where `<name>` can be a command, an event, or a type.
+
 ## FAQ
 
 ### Invoking `Domain.method` I obtain `Domain.method is not a function`
@@ -888,14 +898,6 @@ $ chrome-remote-interface inspect
 ```
 
 See [here](#chrome-debugging-protocol-versions) for more information.
-
-### Headless Chrome problems?
-
-Bear in mind that `--headless` Chrome is relatively new and there are kinks (in
-Chrome) that are being worked out. If you believe you have encountered a bug,
-take a look at the open issues, especially [external issues].
-
-[external issues]: https://github.com/cyrus-and/chrome-remote-interface/issues?q=label%3A%22external+issue%22
 
 ### Why my program stalls or behave unexpectedly if I run Chrome in a Docker container?
 
